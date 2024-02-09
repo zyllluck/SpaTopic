@@ -1,0 +1,8 @@
+"0","# plot prepare"
+"0","df <- as.data.frame(t(dt_topic_data[,match(PDAC_obj$spatial.cluster,gsub(""spot_domain_"", """", colnames(dt_topic_data)))]))"
+"0","rownames(df) <- colnames(PDAC_obj)"
+"0","PDAC_obj <- AddMetaData(PDAC_obj, df)"
+"0","colors_num <- ncol(dt_topic_data)"
+"0","topics <- colnames(ct_topic_data)"
+"0","bar_plot_data <- ct_topic_data"
+"0","bar_plot_data$CellType <- rownames(ct_topic_data)"
