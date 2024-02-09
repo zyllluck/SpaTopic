@@ -1,3 +1,0 @@
-"0","result_list <- FindCellTopic(dt_topic_data, ct_topic_data, spot_clusters, cluster = ""spatial.cluster"", percent = 0.7)"
-"0","PDAC_obj <- AddMetaData(PDAC_obj, result_list[[""CellTopic""]])"
-"0","SpatialDimPlot(PDAC_obj, label = FALSE, group.by = ""CellTopic"", pt.size.factor = 8) + scale_fill_manual(values = my_colors) + coord_flip()+ scale_y_reverse()"

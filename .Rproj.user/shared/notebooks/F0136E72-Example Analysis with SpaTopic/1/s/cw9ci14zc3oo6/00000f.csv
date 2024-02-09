@@ -1,3 +1,0 @@
-"0","topic_list <- MatrixFactorization(domain_cellytpe, num_topics = 15)"
-"0","dt_topic_data <- topic_list[[""domain_topic""]]"
-"0","ct_topic_data <- topic_list[[""celltype_topic""]]"

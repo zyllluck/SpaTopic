@@ -1,3 +1,0 @@
-"0","domain_cellytpe <- ksTest(spot_celltype, spot_clusters, cluster = ""spatial.cluster"")"
-"0","pheatmap(domain_cellytpe, cluster_rows = FALSE, cluster_cols = FALSE,"
-"0","         cellwidth = 20, cellheight = 20)"
